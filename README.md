@@ -62,3 +62,21 @@ https://www.researchgate.net/publication/220766841_Handling_Conditional_Discrimi
 <br/>
 
 ## Results:
+
+Below plots show the comparision of prediction metrics of all the models. A5 refers to the "Fairness-Aware Classifier with Prejudice Remover Regularizer", A6 LM refers to "Local Massaging algorithm with conditional non-discrimination classifier" and A6 LPS refers to "Local Preferential Sampling algorithm with conditional non-discrimination classifier".
+
+<br/>
+
+Accuracy:
+
+<img src="figs/accuracy.png" width="550" height="300">  
+
+
+Calibration Score:
+
+<img src="figs/calibration.png" width="550" height="300">  
+
+
+False Postive Rate (FPR):
+
+<img src="figs/FPR.png" width="550" height="300">  
