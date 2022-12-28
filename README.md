@@ -75,7 +75,7 @@ Accuracy:
 
 Calibration Score:
 
-<img src="figs/calibration.png" width="800" height="400">  
+<img src="figs/calibration.png" width="550" height="300">   
 
 <br/>
 
