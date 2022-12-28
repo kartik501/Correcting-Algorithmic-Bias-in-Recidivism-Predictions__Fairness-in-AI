@@ -27,10 +27,15 @@ A logistic regression model was first implemented to acquire baseline prediction
 Even if the sensitive variable (race, in this project) is removed from the model, there might be other variables in the dataset that are related to the sensitive variable which might lead to indirect dicrimination (also referred as red-lining). 'Prejudice' is defined as a statistical dependence between a sensitive varible 's', and the target variable 'y', or a non-sensitive variable 'X'. This algorithm aims to reduce the Prejudice in the model, and thus improve fairness of predictions.
 
 Objective function to minimize:
-(insert objective function image)
+
+<img src="figs/Obj.PNG" width="550" height="300">  
+
+
 
 The reduction in prejudice usually comes at the cost of model accuracy, and hence the model performace drops as fairness increases.
-(insert graph)
+
+<img src="figs/PR.PNG" width="550" height="300"> 
+
 The x-axis of the graph shows eta values which is a fairness parameter (higher eta leads to more fairness), the numbers on the left y-axis show overall accuracy of the model and the numbers of the right y-axis show the Calders-Verwer Score, which is the difference in accuracies of both classes (a metric for fairness)
 
 <br/>
