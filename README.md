@@ -12,9 +12,10 @@ COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) is
 The metric for evaluating fairness varies based on the context of the problem. However, in this project comparions between the algorithms were made on the basis on overall accuracy, calibration score ( difference between accuracies of each class) and False Positive Rate (FPR) of each class.
 
 ## Methodology:
+A logistic regression model was first implemented to acquire baseline prediction metrics for the dataset. Recidivism predictions were obtained by implementing the two fairness algorithms and then the metrics of all the models were compared.
 
-## Paper 1:
+## Fairness-Aware Classifier with Prejudice Remover Regularizer:
 
-## Paper 2:
+## Handling Conditional Discrimination:
 
 ## Results:
