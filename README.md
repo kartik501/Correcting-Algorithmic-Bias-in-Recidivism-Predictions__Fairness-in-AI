@@ -39,6 +39,7 @@ The reduction in prejudice usually comes at the cost of model accuracy, and henc
 The x-axis of the graph shows eta values which is a fairness parameter (higher eta leads to more fairness), the numbers on the left y-axis show overall accuracy of the model and the numbers of the right y-axis show the Calders-Verwer Score, which is the difference in accuracies of both classes (a metric for fairness)
 
 The link for paper with all details of the algorithm :
+
 https://www.researchgate.net/publication/262176212_Fairness-Aware_Classifier_with_Prejudice_Remover_Regularizer
 
 <br/>
