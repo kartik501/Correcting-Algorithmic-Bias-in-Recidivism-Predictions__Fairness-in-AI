@@ -49,7 +49,7 @@ conditional non-discrimination in classifier design.
 
 The method proposed invovlves finding an appropriate explanatory variable 'e' which is correlated with the sensitive variable 's' and gives some objective information about the taget varaible 'y'. The discrimation based on the explanatory varaible is broken down into two components - bad discrimination and explanable discrimination, and then algorithms such as local massaging and local preferential sampling are proposed to remove only the bad discrimination in the model.
 
-<img src="figs/PR.png" width="550" height="300">
+<img src="figs/D.png" width="550" height="300">
 
 The above plot shows the total and bad discrimination components for each variable used as the explanatory variable. For further comparisions, score_text variable was used as the explanatory variable since it had the highest explanable discrimination value, however in practice the choice of the explantory variable would be heavily influenced by the current laws and policies in place.
 
