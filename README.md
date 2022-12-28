@@ -67,7 +67,7 @@ Below plots show the comparision of prediction metrics for all the models. A5 re
 
 <br/>
 
-Accuracy:
+Accuracy Comparison:
 
 <img src="figs/accuracy.png" width="800" height="400">  
 
@@ -75,7 +75,7 @@ There is very little change in the overall accuracy between baseline and A6 algo
 
 <br/>
 
-Calibration Score:
+Calibration Score Comparison:
 
 <img src="figs/calibration.png" width="550" height="300">   
 
@@ -83,7 +83,7 @@ The A5 model seems to provide the best calibration score with A6 LPS providing f
 
 <br/>
 
-False Postive Rate (FPR):
+False Postive Rate (FPR) Comparison:
 
 <img src="figs/FPR.png" width="800" height="400">  
 
