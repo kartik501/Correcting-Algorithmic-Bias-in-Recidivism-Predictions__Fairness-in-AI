@@ -71,14 +71,19 @@ Accuracy:
 
 <img src="figs/accuracy.png" width="800" height="400">  
 
+There is very little change in the overall accuracy between baseline and A6 algorithm, whereas the accuracy of A5 model seems to have dropped a bit.
 <br/>
 
 Calibration Score:
 
 <img src="figs/calibration.png" width="550" height="300">   
 
+The A5 model seems to provide the best calibration score with A6 LPS providing fair improvement.
+
 <br/>
 
 False Postive Rate (FPR):
 
 <img src="figs/FPR.png" width="800" height="400">  
+
+A6 model seems to have marginally decreased the FPR for African-Americans and increased the FPR for Caucasians, thereby marginally reducing the difference in FPR between classes. The A5 model seems to have further reduced the differnce between the FPR of classes however the FPR now shows a reverse trend to baseline where the FPR for Caucasians is higher than African-Americans.
