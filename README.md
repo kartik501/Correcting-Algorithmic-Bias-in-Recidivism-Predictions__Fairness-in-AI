@@ -75,10 +75,10 @@ Accuracy:
 
 Calibration Score:
 
-<img src="figs/calibration.png" width="550" height="300">  
+<img src="figs/calibration.png" width="800" height="400">  
 
 <br/>
 
 False Postive Rate (FPR):
 
-<img src="figs/FPR.png" width="550" height="300">  
+<img src="figs/FPR.png" width="800" height="400">  
