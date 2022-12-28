@@ -44,6 +44,20 @@ https://www.researchgate.net/publication/262176212_Fairness-Aware_Classifier_wit
 <br/>
 
 ## Handling Conditional Discrimination:
+This paper argues that most fairness techniques aim to remove all discrimination and do not take into account the part of discrimination that may be explanable by other attributes, which may lead to reverse discrimination against the privileged class. In this context, the paper introduces and analyzes the issue of
+conditional non-discrimination in classifier design.
+
+The method proposed invovlves finding an appropriate explanatory variable 'e' which is correlated with the sensitive variable 's' and gives some objective information about the taget varaible 'y'. The discrimation based on the explanatory varaible is broken down into two components - bad discrimination and explanable discrimination, and then algorithms such as local massaging and local preferential sampling are proposed to remove only the bad discrimination in the model.
+
+<img src="figs/PR.png" width="550" height="300">
+
+The above plot shows the total and bad discrimination components for each variable used as the explanatory variable. For further comparisions, score_text variable was used as the explanatory variable since it had the highest explanable discrimination value, however in practice the choice of the explantory variable would be heavily influenced by the current laws and policies in place.
+
+The link for paper with all details of the algorithm :
+https://www.researchgate.net/publication/220766841_Handling_Conditional_Discrimination
+
+
+
 
 <br/>
 
