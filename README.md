@@ -28,13 +28,13 @@ Even if the sensitive variable (race, in this project) is removed from the model
 
 Objective function to minimize:
 
-<img src="figs/Obj.PNG" width="550" height="300">  
+<img src="figs/Obj.png" width="550" height="300">  
 
 
 
 The reduction in prejudice usually comes at the cost of model accuracy, and hence the model performace drops as fairness increases.
 
-<img src="figs/PR.PNG" width="550" height="300"> 
+<img src="figs/PR.png" width="550" height="300"> 
 
 The x-axis of the graph shows eta values which is a fairness parameter (higher eta leads to more fairness), the numbers on the left y-axis show overall accuracy of the model and the numbers of the right y-axis show the Calders-Verwer Score, which is the difference in accuracies of both classes (a metric for fairness)
 
