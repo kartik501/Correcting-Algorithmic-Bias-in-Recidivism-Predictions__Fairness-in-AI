@@ -69,7 +69,7 @@ Below plots show the comparision of prediction metrics of all the models. A5 ref
 
 Accuracy:
 
-<img src="figs/accuracy.png" width="550" height="300">  
+<img src="figs/accuracy.png" width="800" height="400">  
 
 <br/>
 
