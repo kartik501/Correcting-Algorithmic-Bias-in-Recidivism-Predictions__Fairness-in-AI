@@ -1,5 +1,5 @@
 
-# Fairness in AI - COMPAS Recidivism
+# Correcting Algorithmic Bias in Recidivism Predictions: (Fairness in AI)
 
 ## Objective:
 
